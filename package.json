@@ -1,0 +1,57 @@
+{
+  "name": "omelo-http-session",
+  "version": "0.0.1",
+  "private": false,
+  "deprecated": false,
+  "description": "Middleware for Koa2 to get/set session use with custom stores such as Redis or mongodb.",
+  "engines": {
+    "node": "8.9.0"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "libs"
+  ],
+  "author": {
+    "name": "linyngfly",
+    "email": "linyngfly@163.com"
+  },
+  "homepage": "https://github.com/linyngfly/omelo-http-session",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linyngfly/omelo-http-session.git"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bugs": {
+    "url": "https://github.com/linyngfly/omelo-http-session/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/linyngfly/omelo-http-session#license"
+    }
+  ],
+  "keywords": [
+    "omelo-http-session",
+    "omelo",
+    "koa2",
+    "middleware",
+    "game",
+    "web",
+    "store",
+    "server"
+  ],
+  "dependencies": {
+    "omelo-logger": ">=0.1.7"
+  },
+  "devDependencies": {},
+  "contributors": [
+    {
+      "name": "linyngfly",
+      "email": "linyngfly@163.com"
+    }
+  ]
+}
+
